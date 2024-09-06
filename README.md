@@ -4,7 +4,7 @@ User CRUD is a modern web application that demonstrates efficient data handling 
 
 ## Live Demo and Repository
 
-- Live Demo: **[User CRUD](https://assignment-synergy-labs.vercel.app/)**
+- Live Demo: **[User CRUD](https://user-crud-synergy.vercel.app/)**
 - GitHub Repository: **[User CRUD](https://github.com/Shreykumar1/user-crud)**
 
 
