@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { User } from "../types/User";
 
+import { FaRegEdit } from "react-icons/fa";
+import { MdDelete } from "react-icons/md";
 interface UserListProps {
   users: User[];
   onEdit: (user: User) => void;
@@ -38,13 +40,13 @@ const UserList: React.FC<UserListProps> = ({ users, onEdit, onDelete }) => {
                   onClick={() => {onEdit(user)}}
                   className="btn btn-sm bg-blue-500 text-white border-none"
                 >
-                  Edit
+                  <FaRegEdit /> 
                 </button>
                 <button
                   onClick={() => onDelete(user.id)}
                   className="btn btn-sm bg-red-500 text-white border-none mx-2"
                 >
-                  Delete
+                  <MdDelete />
                 </button>
                 <Link
                   to={`/user/${user.id}`}
